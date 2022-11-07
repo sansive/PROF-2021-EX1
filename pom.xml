@@ -7,6 +7,10 @@
   <groupId>es.upm.grise.profundizacion.2021</groupId>
   <artifactId>control-1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
 
   <name>control-1</name>
   <description>Proyecto para la realización del control 1</description>
@@ -19,6 +23,11 @@
       <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.10.19</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
-
 </project>
